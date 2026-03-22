@@ -122,6 +122,9 @@ Business reporting and dashboards
 ## Author
 
 Samudrala Vijayendra Varma
+
 Email: vijayendravarma444@gmail.com
+
 LinkedIn: https://www.linkedin.com/in/vijayendra-varma-samudrala-13b4a828a/
+
 GitHub: https://github.com/vijayendravarma111
