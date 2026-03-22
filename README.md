@@ -1,78 +1,127 @@
-#  Amazon Sales & Customer Intelligence Dashboard
+# Amazon Sales and Customer Intelligence Dashboard
 
-##  Project Overview
-This project is a **multi-page Power BI analytics solution** built to transform Amazon sales transaction data into **clear, actionable insights** for business decision-making.  
-It demonstrates end-to-end capability — from **data preparation and modeling** to **interactive visualization design** — with a strong focus on **storytelling, usability, and decision support**.
+## Overview
 
-The dashboard is structured into three purpose-driven tabs:
-- **Overview** – Executive KPIs, sales trends, and category performance at a glance.
-- **Acquisition** – Deep-dive into product and category performance metrics.
-- **Help** – Embedded user documentation for intuitive onboarding.
+This project is a multi-page Power BI dashboard built to analyze Amazon sales data and present insights in a simple and useful way.
+
+The focus is on turning raw transaction data into clear business insights that help understand sales performance, customer behavior, and product trends.
 
 ---
 
-##  Business Value
-A well-designed analytics dashboard is not just about charts — it’s about **enabling the right decisions at the right time**.  
-This solution delivers:
-- **Clarity** – Highlights key revenue drivers and customer engagement trends.
-- **Speed** – Allows stakeholders to filter and drill down without analyst intervention.
-- **Accuracy** – Data-driven KPIs designed to support performance reviews and strategy planning.
+## Dashboard Structure
+
+The dashboard is divided into three sections:
+
+- Overview  
+  Shows key metrics, overall sales trends, and category performance  
+
+- Acquisition  
+  Focuses on product-level and category-level performance  
+
+- Help  
+  Provides guidance on how to use the dashboard  
 
 ---
 
-##  Skills & Tools Applied
-- **Power BI** – Data modeling, DAX measures, page navigation, and responsive design.
-- **Data Analysis** – KPI definition, segmentation, trend analysis, and performance benchmarking.
-- **UI/UX for Analytics** – Gradient navigation bar, active state indicators, and layout consistency.
-- **Data Preparation** – Cleaning and structuring transactional data for optimal BI performance.
+## Business Value
+
+This dashboard helps in:
+
+- Understanding revenue trends and performance  
+- Identifying top-performing products and categories  
+- Tracking customer activity and engagement  
+- Making faster decisions using interactive filters  
 
 ---
 
-##  Key Metrics & Insights
-**KPIs Tracked:**
+## Key Metrics
+
 - Total Sales  
 - Total Users  
 - Active Users  
 - Average Order Value  
-- Purchases  
+- Total Purchases  
 - Purchase Rate  
 
-**Insights Delivered:**
-- Seasonal revenue patterns and sales peaks.
-- Top-selling product categories and high-performing regions.
-- Customer engagement metrics to support retention strategies.
+---
+
+## Insights
+
+- Sales show clear seasonal trends  
+- A few categories contribute most of the revenue  
+- Customer activity varies across regions  
+- Engagement metrics help identify growth opportunities  
 
 ---
 
-##  Dashboard Preview
+## Dashboard Preview
 
-### **Overview Tab**
-![Overview](Overview.png)
+### Overview
 
-### **Acquisition Tab**
-![Acquisition](Acquisition.png)
-
-### **Help Tab**
-![Help](Help.png)
+![Overview](Results/Overview.png)
 
 ---
 
-##  Dataset
-Data sourced from cleaned Amazon sales transaction records, containing:
-- Order details (date, ID, customer ID)  
-- Product information (name, category)  
-- Region, quantity, unit price, and ratings  
+### Acquisition
+
+![Acquisition](Results/Acquisition.png)
 
 ---
 
-##  Contact
-**Author:** Samudrala Vijayendra Varma  
- **Email:** [vijayendravarma444@gmail.com](mailto:vijayendravarma444@gmail.com)  
- **LinkedIn:** [Vijayendra Varma Samudrala](https://www.linkedin.com/in/vijayendra-varma-samudrala-13b4a828a/)  
- **GitHub:** [vijayendravarma111](https://github.com/vijayendravarma111)  
+### Help
+
+![Help](Results/Help.png)
 
 ---
 
+## Dataset
 
-## 🏷 Tags
-`#PowerBI` `#BusinessIntelligence` `#DataAnalytics` `#DataVisualization` `#DAX` `#DashboardDesign` `#AnalyticsEngineering`
+The dataset includes:
+
+- Order details (date, order ID, customer ID)  
+- Product details (name, category)  
+- Region and quantity  
+- Pricing and ratings  
+
+Both raw and cleaned datasets are included in the project.
+
+---
+
+## Tools Used
+
+- Power BI for dashboard creation  
+- DAX for calculated measures  
+- Data cleaning and preparation  
+
+---
+
+## Project Structure
+
+``` id="amz82p"
+Amazon-Sales-Dashboard/
+│
+├── Dataset/
+│   ├── Uncleaned_Amazon_Sales_Dataset.csv
+│   ├── cleaned_Amazon_Sales_Dataset.xlsx
+│
+├── Results/
+│   ├── Acquisition.png
+│   ├── Help.png
+│   ├── Overview.png
+│
+├── README.md
+
+```
+## Use Cases
+Sales performance analysis
+Customer behavior understanding
+Product performance tracking
+Business reporting and dashboards
+
+
+## Author
+
+Samudrala Vijayendra Varma
+Email: vijayendravarma444@gmail.com
+LinkedIn: https://www.linkedin.com/in/vijayendra-varma-samudrala-13b4a828a/
+GitHub: https://github.com/vijayendravarma111
